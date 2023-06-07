@@ -1,0 +1,29 @@
+.card {
+	margin: 2rem auto;
+	padding: 1rem;
+	width: 90%;
+	max-width: 40rem;
+	display: flex;
+	justify-content: center;
+}
+
+.error{
+	font-size: smaller;
+	color: red;
+	margin-top:-10px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.form input {
+	margin:8px 0;
+	border:solid 1px rgb(192, 191, 191);
+}
+
+.form label{
+	font-weight: 700;
+}
